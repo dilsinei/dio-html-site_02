@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clinica Brasil</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style-form.css">
+
+</head>
+
+<body>
+  <div class="container">
+    <!-- Menu de navegação lateral -->
+    <div class="navbar">
+      <img src="assets/logo_nova.png" alt="clinica brasil" width="200px">
+      <ul id="nav">
+        <li>
+          <a href="index.html"><span class="links_name">Página Principal</span></a>
+        </li>
+        <li>
+          <a href="clinica_sobre.html"><span class="links_name">Sobre a Clínica</span></a>
+        </li>
+        <li>
+          <a href="clinica_agenda.html"><span class="links_name">Horário de Atendimento</span></a>
+        </li>
+        </li>
+        <li>
+          <a href="clinica_contato.html"><span class="links_name">Contato</span></a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="content__master">
+      <!-- cabeçário -->
+      <div class="header" style="background-image: url('assets/Contato_mobile.webp');background-size: 100% 100%;">
+        <h1>Clínica Brasil</h1>
+        <h3>Centro de Diagnóstico</h3>
+      </div>
+      <!-- Descrição conteúdo -->
+      <div class="descrition__content">
+        <div id="conteudo_left">
+          <form>
+            <ul class="form-style-1">
+              <li><label>Nome Completo <span class="required">*</span></label><input type="text" name="field1"
+                  class="field-divided" placeholder="Nome" /> <input type="text" name="field2" class="field-divided"
+                  placeholder="Sobrenome" /></li>
+              <li>
+                <label>Email <span class="required">*</span></label>
+                <input type="email" name="field3" class="field-long" />
+              </li>
+              <li>
+                <label>Assunto</label>
+                <input type="text" name="field4" class="field-long">
+              </li>
+              <li>
+                <label>Especialidade</label>
+                <select name="field4" class="field-select">
+                  <option value="ClinicaGeral">Clínica Geral</option>
+                  <option value="Psicologia">Psicologia</option>
+                  <option value="Pediatria">Pediatria</option>
+                  <option value="Oftamologia">Oftamologia</option>
+                </select>
+              </li>
+              <li>
+                <label>Mensagem<span class="required">*</span></label>
+                <textarea name="field5" id="field5" class="field-long field-textarea"></textarea>
+              </li>
+              <li>
+                <input type="submit" value="Enviar Mensagem" />
+                <input type="reset" value="Limpar Formulario" />
+              </li>
+            </ul>
+          </form>
+        </div>
+        <div id="conteudo_right">
+          <table width="350" height="80px">
+            <tr>
+              <td rowspan="2"><img src="assets/telefone.png" alt="telefone" width="50px" height="80px"></td>
+              <td>Ligue para nós</td>
+              <td rowspan="2"><img src="assets/whatsApp.png" alt="WhatsApp" width="50px" height="80px"></td>
+              <td>WhatsApp</td>
+            </tr>
+            <tr>
+              <td>031 3011-1060</td>
+              <td>031 9329-1060</td>
+            </tr>
+            <tr>
+              <td colspan="2">Localização</td>
+            </tr>
+          </table>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3752.418330344184!2d-43.93255828499997!3d-19.924261899999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa676d095431c52f1%3A0x53437381e04525c0!2sRua+Guaicurus%2C+660%20-%20Centro%2C+Belo+Horizonte%20-%20MG%2C+30111-060!5e0!3m2!1spt-BR!2sbr!4v1677481534092!5m2!1spt-BR!2sbr"
+            width="350" height="275" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </ul>
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <!-- Rodapé -->
+      <div class="footer">
+        <div class="footer__row">
+          <h4><span>MATRIZ </span> Unidade Clínica Brasil - Centro</h4>
+          <p>Rua Guaicurus, 660 - Centro, Belo Horizonte - MG,</p>
+          <p>CEP.: 30111-060 - TEL:3011-1060</p>
+        </div>
+        <div class="footer__row">
+          <h4>Unidade Clinica Brasileira - Igarapé</h4>
+          <p>Rua Manoel Luís, 122 -Centro, Igarapé - MG </p>
+          <p>CEP.: 32900-000 TEL: 3290-0000 </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+</body>
+
+</html>
